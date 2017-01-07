@@ -1,0 +1,50 @@
+body{
+	text-align: center;
+	background-color:#d2ddef;
+}
+.intro{
+	color:#052c6b;
+	font-family: Verdana;
+	
+}
+table {
+  border: 1px solid black;
+  margin:0 auto;
+  height: 300px;
+  width: 50%;
+  background-color:#f0f4c3;
+}
+
+tr{
+	border: 1px solid black;
+	height:100px;
+}
+
+td{
+	border: 1px solid black;
+	width:33%;
+}
+#winner{
+	display:none;
+	font-family: Verdana;
+}
+img{
+	display:none;
+	margin:0 auto;
+}
+.x{
+	color: red;
+}
+.o{
+	color: blue;
+}
+.full{
+	text-decoration: underline;
+}
+.empty{
+	background-color: white;
+}
+button{
+	font-family: Verdana;
+	font-size: 14px;
+}
