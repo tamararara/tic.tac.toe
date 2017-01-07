@@ -78,7 +78,7 @@ if(square1.hasClass('x') && square2.hasClass('x') && square3.hasClass('x')||
 }
 }
 
-var intialize = function(){
+var initialize = function(){
 	$('td').addClass('empty');
 // identify if user is winner
 	//user turn
@@ -90,12 +90,12 @@ $('button').on('click', function(e){
 	$('td').removeClass('full');
 	$('td').removeClass('x');
 	$('td').removeClass('o');
-	$('td').addClass('empty');
 	$('td').html('');
 	$('#winner').html('');
 	$('#winner').css('display','none');
 	$('img').css('display', 'none');
+	initialize();
 })
 
-intialize();
+initialize();
 
